@@ -16,15 +16,7 @@ var obj = {
 };
 
 /* GET users listing. */
-router.get('/v1/sessions', function(req, res) {
-  res.json(obj);
-});
-
-router.post('/v1/sessions', function(req, res) {
-  res.json(obj);
-});
-
-router.put('/v1/sessions', function(req, res) {
+router.all('/v1/sessions', function(req, res) {
   res.json(obj);
 });
 

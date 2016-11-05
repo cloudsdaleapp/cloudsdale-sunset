@@ -12,7 +12,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
@@ -30,7 +30,7 @@ app.use(function(req, res, next) {
     // var err = new Error('Not Found');
     // err.status = 404;
     // next(err);
-    res.render('index', { title: 'Goodbye!' });
+    res.render('index', { title: 'Coming soon!' });
 });
 
 // error handlers

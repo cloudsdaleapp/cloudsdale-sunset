@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  .topSection
+    .topSectionContainer
+      h1 Cloudsdale Returns!
+      h2 Winter 2016
+  .midSection
+    .heroContainer
+      .heroImgDiv(style={
+        "background-image": "url(" + image.image + ")"
+      })
+        img.heroImg(src=image.image)
+      .caption
+        p.
+          Image by 
+          #[a(href="http://vodyanoyart.deviantart.com/") VodyanoyArt on DeviantArt].
+          #[a(href=image.attrib) Source]. Licensed under 
+          #[a(href="https://creativecommons.org/licenses/by-nc-nd/3.0/") CC BY-NC-ND 3.0].
+
+  .bottomSection
+    img#logo(src="/images/WingWatermark.png" height=240 width=240)
+    p.
+      Check this space later in the year for our grand reopening!
+      We can't wait to see you there!
+
+    
+    .twitterButton
+      a(href="https://twitter.com/cloudsdaleapp")
+        img#twitter(src="/images/twitter.png")

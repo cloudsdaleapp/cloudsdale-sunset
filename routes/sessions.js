@@ -3,14 +3,8 @@ var router = express.Router();
 
 var obj = {
   flash: {
-    title: "Goodbye!",
-    message: "After over 3 years of service, Cloudsdale must now unfortunately come to a close. "+
-    "After declining interest in Cloudsdale and more generally in the Brony community, "+
-    "Cloudsdale can no longer afford its server costs. Thank you to everyone who stuck "+
-    "with us all these years! The Cloudsdale development team is hard at work on the next "+
-    "big thing and we hope to see you there someday. Until then, consider this our very fond "+
-    "farewell. We wish you all the best, and remember: be awesome to each other.\n\n"+
-    "RIP September 2011 - January 2015"
+    title: "Coming Soon!",
+    message: "Check out our website for an announcement!\n\nwww.cloudsdale.org"
   },
   status: 400
 };

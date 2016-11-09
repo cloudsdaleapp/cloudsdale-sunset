@@ -1,5 +1,5 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", "Trebuchet MS", Helvetica, Arial, sans-serif;
   margin: 0px !important;
   padding: 0px !important;
 }
@@ -11,12 +11,39 @@ body {
   padding-right: 1em;
 }
 
+.topSection h1 {
+  margin: 0px;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.topSection h2 {
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center;
+  color: #fcfcfc;
+}
+
 .bottomSection {
   padding: 2em;
   margin-top: 1rem;
   background-color: #f2f6f8;
-  text-align: center;
-  font-size: 1.5em;
+}
+
+
+.bottomSection h1 {
+  text-align: left
+}
+
+.bottomSection h2 {
+  text-align: left
+}
+
+.bottomSection p {
+  font-size: 0.9em;
+  font-weight: normal;
 }
 
 .topSectionContainer {
@@ -64,31 +91,35 @@ body {
 }
 
 .twitterButton {
+  display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 img#twitter {
   border-radius: 50%;
   width: 64px;
   height: 64px;
+  text-align: center;
 }
 
-h1 {
-  margin: 0px;
-  font-size: 3em;
-  font-weight: bold;
+img#logo {
   text-align: center;
-  color: #fcfcfc;
-}
-
-h2 {
-  font-size: 2.4em;
-  font-weight: normal;
-  text-align: center;
-  color: #fcfcfc;
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 a {
   color: #00B7FF;
 }
 
+.faqSection {
+  background-color: #f2f6f8;
+  padding: 5em
+}
+
+.faqTextContainer {
+  max-width: 50em;
+  margin: 0 auto;
+}
